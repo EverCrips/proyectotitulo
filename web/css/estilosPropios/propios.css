@@ -1,0 +1,186 @@
+
+/* INICIO PAGINA EDITAR DATOS */
+/* INICIO PANEL SUPERIOR */
+imgPerfilDivPadre{
+    padding: 15px;
+}
+
+#imgPerfilDivHija{
+    width: 150px;
+    height: auto;
+    margin: auto;
+}
+
+.divCumpleIngre{
+    margin-top:35px;
+}
+
+.paddingDiv{
+    padding:5px;    
+}
+.paddingDiv li{
+    
+}
+/* FIN PANEL SUPERIOR */
+
+/* INICIO PANEL CENTRAL */
+#icoEditPer{
+    float: right;
+    cursor:pointer;
+    color:red;
+}
+#cambiarImg{
+    text-align: center;
+}
+/* FIN PANEL CENTRAL */
+/* FIN PAGINA EDITAR DATOS */
+
+/* INICIO PAGINA USUARIOS */
+.datosCuenta input{
+    border-radius: 10rem;
+    padding: 1.5rem 1rem;
+}
+.datosCuenta select{
+    border-radius: 10rem;
+}
+#icoAddUs{
+    float: right;
+    cursor:pointer;
+    color:green;
+}
+#icoAddTra{
+    float: right;
+    cursor:pointer;
+    color:green;
+}
+.fa-user-minus{
+    color:red;
+}
+.fa-user-edit{
+    color:blue;
+}
+.fa-user-check{
+    color: green;
+}
+.fa-file-pdf{
+    color: red;
+}
+.fa-edit{
+    color: green;
+}
+.fa-trash-alt{
+    color: red;
+}
+.fa-times{
+    color:red;
+}
+.fa-pen{
+    color:green;
+}
+.fa-window-close{
+    color:red;
+}
+.fa-check-square{
+    color:green;
+}
+/** CHECKS VALiDACIONES RUT Y EMAIL **/
+#checkEmail{
+    float: right;
+    margin-right: 6px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    color: green;
+    display:none;
+}
+#nocheckEmail{
+    float: right;
+    margin-right: 6px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    color: red;
+    display:none;
+}
+#checkRut{
+    float: right;
+    margin-right: 6px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    color: green;
+    display:none;
+}
+#nocheckRut{
+    float: right;
+    margin-right: 6px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    color: red;
+    display:none;
+}
+#checkPass1{
+    float: right;
+    margin-right: 6px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    color: green;
+    display:none;
+}
+#nocheckPass1{
+    float: right;
+    margin-right: 6px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    color: red;
+    display:none;
+}
+#checkPass2{
+    float: right;
+    margin-right: 6px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    color: green;
+    display:none;
+}
+#nocheckPass2{
+    float: right;
+    margin-right: 6px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    color: red;
+    display:none;
+}
+/* FIN PAGINA USUARIOS */
+#imgPerfilDivHijaChange{
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
+#imgPerfilDivHijaChange img{
+    cursor:pointer;
+}
+#imgPPP{
+    width: 160px;
+    height: 160px;
+}
+#preview{
+    margin: 5px 5px;
+    overflow: hidden;
+    width: 290px;
+    height: 290px;
+    background-size: 100% 100% !important;
+    background-repeat:no-repeat !important;
+    background-position: 5%;
+    border-radius: 5%;
+}
+
+#cardRiesCrit{
+    border: 8px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}

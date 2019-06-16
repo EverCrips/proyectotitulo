@@ -1,0 +1,80 @@
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#inisesi{
+    color: #fff;
+}
+
+
+/*
+    CSS PANEL INDEX
+*/
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* RECUPERAR CONTRASEÑA */
+#recuPass{
+    margin: 93px;
+}
+
+#recuPassEmail{
+    padding: 15px;
+    margin: 5px;
+    border: 4px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    overflow: hidden;
+    /*max-width: 600px;*/
+    justify-content:center;
+    background-color: #dfe1ee;
+}
+
+#recuPassEmailDiv{
+    justify-content:center;
+    padding: 15px;
+    margin: 5px;
+}
+#recuPassEmailDiv .row{
+    justify-content:center;
+    padding: 15px;
+    margin: 5px;
+}
+#recuPassEmail .btn{
+    justify-content:center;
+    padding: 15px;
+    margin: 5px;
+    float:right;
+}
+
+/*BOTON MAIN LOGIN*/
+#as{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    width:90%;
+}
+
+/* MENSAJE DE ALERTA */
+#msjAlert{
+    width: 340px;
+    border: 4px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    color:#00000;
+    margin-bottom: 5px;
+}
+
+/* CARRUSEL */
+#carouselExampleIndicators .as{
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+   -moz-background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   background-size: 100% 100% !important;
+   background-repeat:no-repeat !important;
+}
